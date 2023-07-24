@@ -1,8 +1,30 @@
+body{
+  width: auto;
+  height: 100vh;
+  background-image: url(images/wave-haikei\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .nav{
   padding: 20px;
   display: flex;
   flex-direction: row;
   flood-color: aqua;
-  color:black
+  color:black;
+  background-image: url(images/avo-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   
+  
+}
+.nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+.nav ul li{
+  list-style-type:none;
+  
+}
+.nav a{
+  text-decoration-line: none;
 }
